@@ -1,0 +1,412 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+
+/*Estilos header navbar*/
+header{
+   
+    height: 90px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 35px;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+nav{
+   
+    height: 48px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 30px;
+    background: #e8e5e480;
+    backdrop-filter: saturate(180%) blur(10px);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    border-radius: 50px;
+    
+    font-size: 16px;
+}
+
+
+.ul-inicio{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 294px;
+    
+    height: 48px;
+    font-size: 16px;
+    flex-direction: row;
+    
+    
+}
+
+
+
+.li-inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    font-size: 15px;
+    
+}
+li a{
+    
+    text-align: center;
+    font-family: inter;
+    z-index: 1000;
+    width: 80px;
+    height: 30px;
+    padding-top: 12px;
+    box-sizing: content-box;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+/*Clase que se agrega al presionar un boton del menu*/
+.init{
+    background-color: #fff;
+    border-radius: 50px;
+    
+}
+
+/*Estilo main*/
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    margin-top: 150px;
+    text-align: center;
+    
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+    font-family:inter;
+    font-size: 70px;
+    font-weight: 500;
+    height: auto;
+    margin-bottom: 15px;
+    letter-spacing: -2px;
+    
+}
+h2{
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    
+    font-weight: lighter;
+    font-size: 22px;
+    height: auto;
+    color: #4d4d4d;
+}
+
+
+
+.elemento{
+    width: 80%;
+    height: 30px;
+    margin:0;
+    position: relative;
+    }
+
+
+.animatedColor {
+        color: black;
+}
+.flecha {
+animation: arrow 1s ease-in-out infinite;
+font-size:40px;
+cursor: pointer;
+}
+        
+.flecha:hover{
+animation:arrow 1s ease-out infinite !important;
+        color:#818181;
+}
+
+@keyframes arrow {
+    0% {
+     transform: translate(0px, 10px);
+     }
+     50% {
+     transform: translate(0px, 20px);
+      }
+     100% {
+     transform: translate(0px, 10px);
+    }
+}
+
+.proyectos{
+   
+    width: 100%;
+    margin-top: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    font-family: Helvetica;
+}
+
+.proyectos article{
+    width: 80%;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.div-estrategia-marca{
+    box-sizing: border-box;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: start;
+    height: auto;
+    
+}
+
+.img{
+    width: 70%;
+    height: auto;
+    border-radius: 15px;
+    transition: all 0.3s;
+}
+
+.img:hover{
+    
+    filter: blur(5px);
+    cursor: pointer;
+}
+
+
+
+h3{
+    font-weight: 400;
+    text-align: left;
+    width: 100%;
+    font-size: 25px;
+    margin-bottom: 38px;
+    
+    font-family: Helvetica;
+    
+}
+
+.descripcion-proyecto{
+    font-family: Helvetica;
+    text-align: left;
+    width: 60%;
+    margin-bottom: 25px;
+    color: #4d4d4d;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.black-letter{
+    color: black;
+}
+.descripcion-proyecto-1{
+display: block;    margin-top: 30px;
+}
+
+
+.ver-mas{
+    display: flex;
+    /*color: rgb(230, 117, 136);*/
+    text-align: left;
+    color: black;
+    width: 100%;
+    font-size: 18px;
+    
+    
+    
+    margin-bottom: 15px;
+    font-family: inter;
+}
+
+.ver-mas:hover{
+    color: #818181;
+    cursor: pointer;
+}
+
+
+.sensuale{
+    width: 100%;
+    display: none;
+    
+    flex-direction: column;
+    align-items: center;
+}
+
+.sensuale img{
+    width: 95%;
+}
+.perfil{
+    
+    width: 100%;
+    font-family: inter;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+h4{
+    color: black;
+    width:70%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 48px;
+    height: auto;
+    margin-bottom: 180px;
+    margin-top: 150px;
+    
+    
+}
+
+.habilidades{
+    
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.experiencia{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+h5{
+    
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-size: 20px;
+    height: auto;
+   
+    text-align: left;
+    
+    
+}
+
+.perfil p{
+    line-height: 20px;
+    font-size: 16px;
+    width: 60%;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4d4d4d;;
+    
+}
+
+.bolder{
+    color: black;
+    font-weight: lighter;
+}
+
+.imagen-perfil{
+    float: right;
+    border-radius: 50%;
+    width: 120px;
+   height: 120px;
+}
+
+.contacto{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    
+    
+}
+
+h6{
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: lighter;
+    height: auto;
+    margin-bottom: 16px;
+    margin-top: 150px;
+    
+}
+
+.contacto ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 200px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contacto ul li{
+color: black;
+   font-size: 16px;
+   font-family: inter;
+}
+
+.contacto ul li a:hover{
+    color: #818181;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-left: 2%;
+    box-sizing: border-box;
+}
+
+footer span{
+    
+    width: 98%;
+
+}
+
+/*MOBILE*/
+
+@media only screen and (max-width: 576px) {
+
+    
+
+}
+
