@@ -531,7 +531,7 @@ footer span{
         position: relative;
         margin-top: 150px;
         margin-bottom: 100px;
-        background-color: red;
+        
         justify-content: center;
         
     }
@@ -544,7 +544,7 @@ footer span{
         font-weight: lighter;
         height: auto;
         margin-bottom: 16px;
-        background-color: blue;
+        
         
     }
     
